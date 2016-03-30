@@ -10,24 +10,25 @@ This program include the constants of Vaccum permeability and Vaccum permittivit
 
 -------------------------------------------------------
 For Alpha, it takes the arguments: omega, mu, epsilon, sigma. Return a float
+ 
  alpha(omega, mu, epsilon, sigma):
-
-
+ 
 -------------------------------------------------------
 Beta is similar to Alpha.Return a float
+
  beta(omega, mu, epsilon, sigma):
-
-
+ 
 -------------------------------------------------------
 Wave length calculation takes the argument beta.Return a float
+
  waveLength(beta):
-
-
+ 
 -------------------------------------------------------
 Phase velocity takes the argument omega and beta.Return a float
+
  phaseVelocity(omega,beta):
-
-
+ 
 -------------------------------------------------------
 Intrinsic Impedance takes the argument:omega,mu,sigma,epsilon. Return a complex number
+
  intrinsicImped(omega,mu,sigma,epsilon):
